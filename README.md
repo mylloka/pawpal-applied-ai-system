@@ -34,6 +34,8 @@ Run python main.py to see the demo.
 Run streamlit run app.py to open the app.
 Run python -m pytest test_pawpal.py -v to run tests.
 
+Building PawPal+ taught me that reliability in AI systems isn't just about accuracy — it's about predictability. Even a deterministic scheduling algorithm needs explicit tests because edge cases (two tasks at the exact same time, zero-duration tasks) produce surprising behavior. The hardest part wasn't writing the logic; it was writing tests specific enough to catch real failures without being so rigid that they break on minor formatting changes.
+
 ## Demo
 
 Add your Loom video link here.
